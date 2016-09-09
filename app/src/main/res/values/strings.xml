@@ -7,5 +7,5 @@
     <string name="make_your_app_material">Faça seu aplicativo com Material </string>
     <string name="go_ubiquitous">Seja onipresente</string>
     <string name="capstone">Capstone</string>
-    <string name="willRun">Abrir o app</string>
+    <string name="openApp">Abrir o app '%s'</string>
 </resources>

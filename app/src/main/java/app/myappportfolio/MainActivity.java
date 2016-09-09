@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ViewGroup parentView = (ViewGroup) findViewById(R.id.mainLayout);
 
-        for(View view : parentView.getTouchables()) {
+        for (View view : parentView.getTouchables()) {
             if (view instanceof Button) {
 
                 Button b = (Button) view;
@@ -33,12 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        Button b = (Button) view;
 
-        //if (view instanceof Button) {
-            Button b = (Button) view;
-
-            toastMessage(getString(R.string.willRun)+": "+b.getText());
-       // }
+        toastMessage(String.format(getString(R.string.openApp), b.getText()));
 
     }
 
@@ -48,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         int duration = Toast.LENGTH_SHORT;
 
-        Toast toast = Toast.makeText(context,text,duration);
+        Toast toast = Toast.makeText(context, text, duration);
         toast.show();
 
     }
