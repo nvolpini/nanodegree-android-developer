@@ -8,14 +8,14 @@
         <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../../../../neimar/devel/projects/android/nanodegree-android-developer/MyAppPortfolio" />
-            <option value="$PROJECT_DIR$/../../../../../neimar/devel/projects/android/nanodegree-android-developer/MyAppPortfolio/app" />
+            <option value="/data/neimar/devel/projects/android/nanodegree-android-developer/project0-portfolio-app" />
+            <option value="/data/neimar/devel/projects/android/nanodegree-android-developer/project0-portfolio-app/app" />
           </set>
         </option>
         <option name="myModules">
           <set>
-            <option value="$PROJECT_DIR$/../../../../../neimar/devel/projects/android/nanodegree-android-developer/MyAppPortfolio" />
-            <option value="$PROJECT_DIR$/../../../../../neimar/devel/projects/android/nanodegree-android-developer/MyAppPortfolio/app" />
+            <option value="/data/neimar/devel/projects/android/nanodegree-android-developer/project0-portfolio-app" />
+            <option value="/data/neimar/devel/projects/android/nanodegree-android-developer/project0-portfolio-app/app" />
           </set>
         </option>
       </GradleProjectSettings>
